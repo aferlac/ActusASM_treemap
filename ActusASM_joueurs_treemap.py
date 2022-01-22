@@ -13,6 +13,9 @@ st.set_page_config(page_title=" 14 saisons d'actus sur www.asm-rugby.com - A.Fer
                    layout='centered',
                    initial_sidebar_state='auto')
 
+st.title("QUATORZE SAISONS D'ACTUS SUR LE SITE DE L'ASM")
+st.subheader("Nombre de citations des joueurs")
+
 col1, col2 = st.columns(2)
 choix1 = col1.radio(
      'De quelle zone voulez-vous le nombre de citations ?',
